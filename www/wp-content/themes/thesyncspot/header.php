@@ -24,3 +24,4 @@
     <link rel="stylesheet" href="<? bloginfo('template_url') ?>/js/main.js">
 </head>
 <body <?php body_class(); ?>>
+<?php dynamic_sidebar('popup'); ?>

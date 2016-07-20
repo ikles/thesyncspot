@@ -104,6 +104,27 @@ register_sidebar(array(
 	));
 
 
+register_sidebar(array(
+	'name' => 'Footer',
+	'id' => 'footer',
+	'description' => '',
+	'before_widget' => '<div class="footer"><span>',
+	'after_widget' => '</span></div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+register_sidebar(array(
+	'name' => 'Popup form',
+	'id' => 'popup',
+	'description' => '',
+	'before_widget' => '<div class="popup">',
+	'after_widget' => '</div>',
+	'before_title' => '',
+	'after_title' => ''
+	));
+
+
 
 
 add_action( 'after_setup_theme', 'woocommerce_support' );

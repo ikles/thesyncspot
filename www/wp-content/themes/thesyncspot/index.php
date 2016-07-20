@@ -49,34 +49,7 @@
 </section>
 <section class="contactfrom_section">
 	<div class="container">
-
 		<?php dynamic_sidebar('contactfrom'); ?>
-		<!--div class="contactfrom">
-			<h1>still have questions? reach out!</h1>
-			<div class="address">
-				<div class="call">
-					<h2>call us</h2>
-					<span>323.931.5050</span>
-				</div>
-				<div class="emailus">
-					<h2>email us</h2>
-					<span>info@thesyncspot.com</span>
-				</div>
-			</div>
-			<div class="contact_from">
-				<form action="index.php">
-					<input type="text" class="name" placeholder="name">
-					<input type="text" class="title" placeholder="title"><br>
-					<input type="text" class="company" placeholder="company"><br>
-					<input type="text" class="email" placeholder="email">
-					<input type="text" class="phone" placeholder="phone"><br>
-					<textarea name="message" id="message" placeholder="message"></textarea><br>
-					<input type="submit" class="sendbtn" value="submit">
-				</form>
-			</div>
-		</div-->
-
-
 	</div>
 </section>
 <?php get_footer(); ?>
