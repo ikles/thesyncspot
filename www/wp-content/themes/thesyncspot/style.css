@@ -147,16 +147,49 @@ FUTURA STD BOLD
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#contact_form_pop .wpcf7-form {
+  text-align: center !important;
+}
 
-.div.wpcf7-response-output, .div.wpcf7-validation-errors {
+#contact_form_pop .email {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  margin: 0 !important;
+}
+
+
+#contact_form_pop.contact_from {
+  width: 100%;
+}
+
+#contact_form_pop.contact_from input {
+  margin-bottom: 10px !important;
+}
+
+#contact_form_pop .wpcf7-form input[type="submit"] {
+  margin-top: 0px;
+  float: right;
+}
+
+#contact_form_pop .wpcf7-form div.wpcf7-response-output {
+  margin-top: 85px !important;
+}
+
+.contact_from div.wpcf7-response-output {
   margin: 0 !important;
   border-width: 1px !important;
+  text-align: center !important;
+}
+
+.contact_from {
+  position: relative;
 }
 
 div.wpcf7 img.ajax-loader {
-  margin-left: 105px;
-  float: left;
-  margin-top: 25px;
+  position: absolute;
+  right: 200px;
+  bottom: 25px;
 }
 
 header.header_section {
