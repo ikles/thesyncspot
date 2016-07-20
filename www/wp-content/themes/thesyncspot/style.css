@@ -148,6 +148,12 @@ FUTURA STD BOLD
    Author's custom styles
    ========================================================================== */
 
+div.wpcf7 img.ajax-loader {
+  margin-left: 105px;
+  float: left;
+  margin-top: 25px;
+}
+
 header.header_section {
   background: #14baec url("img/header_bg.jpg") no-repeat scroll center center;
   overflow: hidden;
@@ -604,7 +610,7 @@ section.contactfrom_section {
   margin: 75px auto 50px;
   width: 70%;
 }
-.contactfrom > h1 {
+.contactfrom h1 {
   clear: both;
   color: #0a6786;
   font-size: 29px;
@@ -658,7 +664,16 @@ section.contactfrom_section {
     /*width: 60%;*/
     max-width: 331px;
     width: 100%;
+    margin-right: 5px;
 }
+
+.contact_from form span {
+    /*width: 60%;*/
+    max-width: auto !important;
+    width: 100% !important;
+    margin-right: 0 !important;
+}
+
 .title, .phone {
     /*width: 31.9%;*/
     max-width: 172px;
@@ -685,7 +700,7 @@ section.contactfrom_section {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.sendbtn {
+.contact_from input[type=submit] {
   background: #1e4c87 none repeat scroll 0 0;
   border: medium none;
   color: #ffffff;
@@ -702,7 +717,7 @@ section.contactfrom_section {
   transition: all 0.3s ease-in-out;
 }
 
-.sendbtn:hover {
+.contact_from input[type=submit]:hover {
     background: #0B1E63 none repeat scroll 0 0;
 
     -webkit-transition: all 0.3s ease-in-out;
@@ -906,7 +921,7 @@ footer.footer_section {
     .contact_from {
         width: 100%;
     }
-    .sendbtn {
+    .contact_from input[type=submit] {
         float: none;
     }
     .call {
@@ -1183,7 +1198,7 @@ footer.footer_section {
     right: 270px;
   }
 
-  .sendbtn { 
+  .contact_from input[type=submit] { 
     margin-right: 0;
     width: 100%; 
   }
@@ -1320,7 +1335,7 @@ footer.footer_section {
     .join {
         width: 95%;
     }
-    .contactfrom > h1 {
+    .contactfrom h1 {
         font-size: 22px;
     }
     .address h2 {

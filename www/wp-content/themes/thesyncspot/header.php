@@ -21,5 +21,6 @@
     <link rel="stylesheet" href="<? bloginfo('template_url') ?>/css/normalize.min.css">
     <link rel="stylesheet" href="<? bloginfo('template_url') ?>/fonts/fonts.css">
     <link rel="stylesheet" href="<? bloginfo('template_url') ?>/style.css">
+    <link rel="stylesheet" href="<? bloginfo('template_url') ?>/js/main.js">
 </head>
 <body <?php body_class(); ?>>

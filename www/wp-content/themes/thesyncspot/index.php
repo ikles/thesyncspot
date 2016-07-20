@@ -51,7 +51,7 @@
 	<div class="container">
 
 		<?php dynamic_sidebar('contactfrom'); ?>
-		<div class="contactfrom">
+		<!--div class="contactfrom">
 			<h1>still have questions? reach out!</h1>
 			<div class="address">
 				<div class="call">
@@ -74,7 +74,7 @@
 					<input type="submit" class="sendbtn" value="submit">
 				</form>
 			</div>
-		</div>
+		</div-->
 
 
 	</div>
